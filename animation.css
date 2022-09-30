@@ -40,3 +40,60 @@
     border-radius: 20px;
     scale: 1.5;
 }
+
+@keyframes rotate {
+
+    0% {
+        rotate: 0;
+    }
+
+    100% {
+        rotate: -360deg;
+    }
+}
+
+@keyframes rotate-and-back {
+
+    0% {
+        rotate: 0deg;
+    }
+
+    80% {
+        rotate: 270deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+
+}
+
+@keyframes back-and-forth-top {
+
+    0% {
+        left: 10%;
+    }
+
+    50% {
+        left: 60%;
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+@keyframes back-and-forth-bottom {
+
+    0% {
+        right: 20%;
+    }
+
+    50% {
+        right: 60%;
+    }
+
+    100% {
+        right: 20%;
+    }
+}
