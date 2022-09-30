@@ -1,0 +1,42 @@
+.ex-1-square:hover {
+    background-color: red;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+.ex-4-square:hover {
+    background-color:transparent ;
+}
+
+.ex-5-square:hover {
+    scale: 2;
+}
+
+.ex-5-square:active {
+    scale: .5;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-7-img:hover {
+    filter: grayscale(.5) sepia(.6);
+}
+
+.ex-8-img:hover {
+    filter: grayscale(.5) sepia(.6);
+    border-radius: 20px;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(.5) sepia(.6);
+    border-radius: 20px;
+    scale: 1.5;
+}
