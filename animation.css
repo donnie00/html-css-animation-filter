@@ -97,3 +97,57 @@
         right: 20%;
     }
 }
+
+@keyframes around-top {
+    0%, 100% {
+        left: 10%;
+        top: -10px;
+    }
+
+    30% {
+        left: 100%;
+        top: -10px;
+    }
+
+    50% {
+        left: 100%;
+        top: 60px;
+    }
+
+    70% {
+        left: -10%;
+        top: 60px;
+    }
+
+    90% {
+        left: -10%;
+        top: -10px;
+    }
+}
+
+@keyframes around-bottom {
+    0%, 100% {
+        right: 20%;
+        bottom: -10px;
+    }
+
+    30% {
+        right: 80%;
+        bottom: -10px;
+    }
+
+    50% {
+        right: 80%;
+        bottom: 60px;
+    }
+
+    70% {
+        right: -20%;
+        bottom: 60px;
+    }
+
+    90% {
+        right: -20%;
+        bottom: -10px;
+    }
+}
